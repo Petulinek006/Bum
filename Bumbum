@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>BumBum Network | Minecraft</title>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;800&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Orbitron,Arial,sans-serif;
+}
+
+body{
+background:#030303;
+color:white;
+overflow-x:hidden;
+}
+
+.hero{
+
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+
+background:
+linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.95)),
+url("https://images.unsplash.com/photo-1607513746994-51c730ed7bb9");
+
+background-size:cover;
+background-position:center;
+
+}
+
+
+.logo{
+
+font-size:90px;
+font-weight:800;
+
+background:linear-gradient(45deg,#ffd700,#fff,#b8860b);
+-webkit-background-clip:text;
+color:transparent;
+
+text-shadow:
+0 0 20px rgba(255,215,0,.5);
+
+}
+
+
+.subtitle{
+
+font-size:25px;
+margin:20px;
+color:#ddd;
+
+}
+
+
+.buttons a{
+
+display:inline-block;
+margin:15px;
+padding:18px 45px;
+
+border-radius:50px;
+
+background:#ffd700;
+color:black;
+
+text-decoration:none;
+font-weight:bold;
+
+transition:.3s;
+
+}
+
+
+.buttons a:hover{
+
+transform:scale(1.1);
+
+box-shadow:
+0 0 40px gold;
+
+}
+
+
+section{
+
+padding:80px 10%;
+text-align:center;
+
+}
+
+
+.card{
+
+background:
+linear-gradient(145deg,#111,#050505);
+
+border:1px solid #333;
+
+border-radius:25px;
+
+padding:40px;
+
+margin-top:30px;
+
+box-shadow:
+0 0 40px rgba(255,215,0,.1);
+
+}
+
+
+h2{
+
+color:#ffd700;
+font-size:40px;
+
+}
+
+
+p{
+
+color:#bbb;
+font-size:18px;
+line-height:1.8;
+
+}
+
+
+.gold{
+
+color:#ffd700;
+
+}
+
+
+footer{
+
+padding:30px;
+text-align:center;
+color:#666;
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="hero">
+
+<div>
+
+<div class="logo">
+BUMBUM
+</div>
+
+
+<div class="subtitle">
+Minecraft server, komunita a zábava nové generace
+</div>
+
+
+<div class="buttons">
+
+<a href="minecraft://bumbum.aternos.me">
+🎮 HRÁT
+</a>
+
+<a href="https://discord.gg/UMTdp6SVN8">
+💬 DISCORD
+</a>
+
+<a href="https://www.youtube.com/@Dv1dCZ8onKick">
+▶️ YOUTUBE
+</a>
+
+</div>
+
+
+</div>
+
+</div>
+
+
+
+<section>
+
+<h2>
+O SERVERU
+</h2>
+
+
+<div class="card">
+
+<p>
+
+🔥 Minecraft server:
+<br>
+<b class="gold">bumbum.aternos.me</b>
+
+<br><br>
+
+⚔️ Survival dobrodružství
+<br>
+🏆 Eventy a soutěže
+<br>
+👥 Aktivní komunita
+<br>
+👑 Zakladatel: David
+
+</p>
+
+</div>
+
+</section>
+
+
+
+<section>
+
+<h2>
+PŘIPOJ SE
+</h2>
+
+
+<div class="card">
+
+<p>
+
+Staň se součástí BumBum Network.
+<br>
+Hraj, poznávej nové hráče a sleduj novinky.
+
+</p>
+
+
+<div class="buttons">
+
+<a href="https://discord.gg/UMTdp6SVN8">
+JOIN COMMUNITY
+</a>
+
+
+<a href="https://www.youtube.com/@Dv1dCZ8onKick">
+WATCH CONTENT
+</a>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+<footer>
+
+© 2026 BumBum Network  
+<br>
+Created by David
+
+</footer>
+
+
+</body>
+</html>
